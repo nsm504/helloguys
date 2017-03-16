@@ -1,8 +1,4 @@
-// Tigra Calendar v5.2 (11/20/2011)
-// http://www.softcomplex.com/products/tigra_calendar/
-// License: Public Domain... You're welcome.
 
-// default settins - this structure can be moved in separate file in multilangual applications
 var A_TCALCONF = {
 	'cssprefix'  : 'tcal',
 	'months'     : ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
@@ -126,7 +122,7 @@ function f_tcalResetTime (d_date) {
 	return d_date;
 }
 
-// closes calendar and returns all inputs to default state
+
 function f_tcalCancel () {
 	
 	var s_pfx = A_TCALCONF.cssprefix;
@@ -159,16 +155,16 @@ function f_tcalUpdate (n_date, b_keepOpen) {
 
 function f_tcalOnClick () {
 
-	// see if already opened
+	
 	var s_pfx = A_TCALCONF.cssprefix;
 	var s_activeClass = s_pfx + 'Active';
 	var b_close = f_tcalHasClass(this, s_activeClass);
 
-	// close all clalendars
+	
 	f_tcalCancel();
 	if (b_close) return;
 
-	// get position of input
+	
 	f_tcalAddClass(this, s_activeClass);
 	
 	var n_left = f_getPosition (this, 'Left'),
