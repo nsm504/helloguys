@@ -1,39 +1,4 @@
-/*
-Activatables -- Make sets of elements active/inactive through anchors.
-Copyright (c) 2009 Andreas Blixt
-MIT license
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-*/
-
-/*
-!!! Usage notes !!!
-
-This code stores a cache of all anchor elements (<a>), and due to this fact, the
-code must not be executed before all anchor elements have been loaded into the
-DOM, to avoid any unexpected behavior. Currently, there is no support for
-handling anchors added to the DOM after this file has been included.
-
-It is recommended that this file is included before the </body> tag to ensure
-that all anchors are cached. Note that the code that calls the activatables()
-function needs to be placed after the inclusion of this file.
-*/
+ 
 
 // Wrapped in a function so as to not pollute the global scope.
 var activatables = (function () {
