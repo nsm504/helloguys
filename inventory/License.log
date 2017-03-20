@@ -1,0 +1,43 @@
+    ======  ======
+    Time:3/20/2017 7:51:40 PM
+    Title: Initiate log
+    Message: 
+    Time:3/20/2017 7:51:40 PM
+    Title: LIC EXP_KEY
+    Message: NULL
+    Time:3/20/2017 7:51:40 PM
+    Title: LICENSER
+    Message: READ REGS SUCCESS
+    Time:3/20/2017 7:51:40 PM
+    Title: LICENSER
+    Message: TRL MODE
+    Time:3/20/2017 7:51:40 PM
+    Title: LICENSER
+    Message: DS LEFT30
+    Time:3/20/2017 7:51:40 PM
+    Title: LICENSER
+    Message: DT MARK PASSED30.00:00:00
+    Time:3/20/2017 7:51:42 PM
+    Title: Initiate log
+    Message: 
+    Time:3/20/2017 7:51:42 PM
+    Title: Initiate InternalManager
+    Message: Trying to Validate License
+    Time:3/20/2017 7:51:42 PM
+    Title: Requesting EVT
+    Message: EVTP
+    Time:3/20/2017 7:51:42 PM
+    Title: Requesting Validation
+    Message: ILMValidate
+    Time:3/20/2017 7:51:42 PM
+    Title: LICENSER
+    Message: TRL MODE
+    Time:3/20/2017 7:51:42 PM
+    Title: LICENSER
+    Message: DS LEFT30
+    Time:3/20/2017 7:51:42 PM
+    Title: LICENSER
+    Message: DT MARK PASSED30.00:00:00
+    Time:3/20/2017 7:52:47 PM
+    Title: ILM action
+    Message: SHUT DOWN QA
